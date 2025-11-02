@@ -5,7 +5,6 @@ const User = React.memo(function User({ user, onRemove, onToggle }) {
     const { username, email, id, active } = user;
 
     useEffect(() => {
-        // console.log(user);
         // console.log('user 값이 설정됨');
         // console.log(user);
         return (() => {
